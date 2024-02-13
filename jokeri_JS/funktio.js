@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     button.addEventListener("click", function() {
         addRow();
         jokerCount++;
-        p.textContent = `Joker rows generated: ${jokerCount}`;
+        p.textContent = `Valmiita rivejä: ${jokerCount}`;
     });
 
     function addRow() {
